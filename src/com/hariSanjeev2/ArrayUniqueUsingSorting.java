@@ -19,7 +19,7 @@ public class ArrayUniqueUsingSorting {
 
         for(int i=0;i<n;i++)
         {
-          int flag=0,count=0;
+          int count=0;
           if(i<a.length-1)
           {
               for(int j=i+1;j<n;j++)
@@ -28,7 +28,6 @@ public class ArrayUniqueUsingSorting {
                       count++;
 
                   else{
-
                       System.out.println(a[i]);
                       i+=count;
                       break;
@@ -38,6 +37,5 @@ public class ArrayUniqueUsingSorting {
           else
               System.out.println(a[i]);
         }
-
     }
 }
